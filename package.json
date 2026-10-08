@@ -1,0 +1,13 @@
+{
+  "name": "codealpha-ecommerce-store",
+  "version": "1.0.0",
+  "description": "CodeAlpha Full Stack Development Internship Task 1 - Simple E-commerce Store",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"},
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "sql.js": "^1.13.0"
+  }
+}
