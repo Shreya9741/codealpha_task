@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const box=document.querySelector('#id_content'),counter=document.querySelector('#postCounter');if(box&&counter){const update=()=>counter.textContent=`${box.value.length} / 500`;box.addEventListener('input',update);update();}});
